@@ -17,9 +17,10 @@
 #define PI 3.14159265359
 #define MAX_LINE_LENGTH 100
 
-double deg_to_rad(double deg){
+// not use
+/*double deg_to_rad(double deg){
 	return deg * (PI / 180.0);
-}
+}*/
 
 void read_config_file(const char *filename, double *variables){
 	FILE *file = fopen(filename, "r");
